@@ -22,6 +22,9 @@ ro.vendor.use_data_netmgrd=true
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Display post-processing
 ro.qualcomm.cabl=0
 ro.vendor.display.ad=1
