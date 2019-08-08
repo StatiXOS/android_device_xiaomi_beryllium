@@ -16,3 +16,5 @@ get_prop(vendor_init, perf_prop)
 get_prop(vendor_init, defaultthermal_prop)
 get_prop(vendor_init, defaultperf_prop)
 get_prop(vendor_init, perfservice_prop)
+
+set_prop(vendor_init, vendor_power_prop)
