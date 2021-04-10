@@ -10,6 +10,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
+TARGET_USES_BLUR := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_beryllium
 PRODUCT_DEVICE := beryllium
