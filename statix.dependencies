@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common"
+  },
+  {
+    "repository": "android_vendor_xiaomi_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch": "11",
+    "remote": "gitlab"
+  }
+]
