@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08bf7172_75f40c30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-09T18:18:09Z",
+      "side": 1,
+      "message": "refer to https://review.statixos.com/c/android_device_xiaomi_beryllium/+/5043 for vendor",
+      "revId": "a10483e8092e340a5105d980fc4032b06f5b6090",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
