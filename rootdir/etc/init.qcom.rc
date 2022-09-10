@@ -30,6 +30,7 @@
 import /vendor/etc/init/hw/init.qcom.power.rc
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
+import /vendor/etc/init/hw/init.mi_settings.rc
 
 on early-init
     # Change ownership of hw_recovery related nodes
@@ -673,3 +674,7 @@ on property:init.svc.vendor.hwcomposer-2-3=running
 
 on property:init.svc.vendor.hwcomposer-2-3=restarting
     stop ppd
+
+on property:restart.perf.service=1
+       stop perf-hal-2-2
+       start perf-hal-2-2

@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.power.rc \
+    init.mi_settings.rc \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.rc \
@@ -84,7 +85,7 @@ PRODUCT_COPY_FILES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiSettings
 
 # Device fstab
 PRODUCT_PACKAGES += \
