@@ -4,7 +4,7 @@
     "target_path": "vendor/xiaomi/beryllium",
   },
   {
-    "repository": "android_kernel_xiaomi_sdm845",
-    "target_path": "kernel/xiaomi/sdm845",
+    "repository": "android_kernel_xiaomi_beryllium",
+    "target_path": "kernel/xiaomi/beryllium",
   }
 ]
