@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    ArrowBerylliumFrameworksOverlay \
     BerylliumCarrierConfigOverlay \
     BerylliumFaceUnlockOverlay \
     BerylliumFrameworksOverlay \
