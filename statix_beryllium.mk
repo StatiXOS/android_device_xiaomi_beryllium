@@ -10,6 +10,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+INCLUDE_PIXEL_LAUNCHER := true
+ENABLE_GAMETOOLS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_beryllium
